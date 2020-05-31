@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('icomoon.eot?8sd3g7');
+    src: url('icomoon.eot?8sd3g7#iefix') format('embedded-opentype'), url('icomoon.ttf?8sd3g7') format('truetype'), url('icomoon.woff?8sd3g7') format('woff'), url('icomoon.svg?8sd3g7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bubbles:before {
+    content: "\e96c";
+}
+
+.icon-bubbles2:before {
+    content: "\e96d";
+}
+
+.icon-eye:before {
+    content: "\e9ce";
+}
+
+.icon-eye-plus:before {
+    content: "\e9cf";
+}
+
+.icon-eye-minus:before {
+    content: "\e9d0";
+}
+
+.icon-eye-blocked:before {
+    content: "\e9d1";
+}
+
+.icon-mail:before {
+    content: "\ea83";
+}
+
+.icon-mail4:before {
+    content: "\ea86";
+}
+
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+
+.icon-google-plus2:before {
+    content: "\ea8c";
+}
+
+.icon-google-plus3:before {
+    content: "\ea8d";
+}
+
+.icon-hangouts:before {
+    content: "\ea8e";
+}
+
+.icon-google-drive:before {
+    content: "\ea8f";
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-whatsapp:before {
+    content: "\ea93";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+.icon-youtube2:before {
+    content: "\ea9e";
+}
+
+.icon-dropbox:before {
+    content: "\eaae";
+}
+
+.icon-onedrive:before {
+    content: "\eaaf";
+}
+
+.icon-github:before {
+    content: "\eab0";
+}
+
+.icon-tux:before {
+    content: "\eabd";
+}
+
+.icon-appleinc:before {
+    content: "\eabe";
+}
+
+.icon-android:before {
+    content: "\eac0";
+}
+
+.icon-windows:before {
+    content: "\eac1";
+}
+
+.icon-chrome:before {
+    content: "\ead9";
+}
+
+.icon-firefox:before {
+    content: "\eada";
+}
+
+.icon-safari:before {
+    content: "\eadd";
+}
+
+.icon-html-five:before {
+    content: "\eae4";
+}
+
+.icon-html-five2:before {
+    content: "\eae5";
+}
