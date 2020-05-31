@@ -1,0 +1,32 @@
+.navbar-personalizado {
+    background-color: #9669FF;
+}
+
+.button-personalizado {
+    border: 2px solid white;
+    outline: none;
+    background: #9669FF;
+    border: 2px solid;
+    border-color: white;
+    position: relative;
+}
+
+.button-personalizado:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #4B3480;
+    transition: all 0.2s ease;
+}
+
+.navbar-personalizado>a {
+    color: white;
+    text-shadow: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-personalizado>li>a {
+    color: white;
+    font-size: 20px;
+    text-shadow: none;
+    font-weight: lighter;
+}

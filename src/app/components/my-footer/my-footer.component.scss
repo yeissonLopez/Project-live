@@ -1,0 +1,41 @@
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    // width: 100%;
+    margin-top: 12%;
+    background-color: #9669FF;
+    color: #CCC;
+    margin: 0;
+}
+
+.app-footer {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.app-footer>h3 {
+    font-size: 20px;
+    color: white;
+    background-color: #9669FF;
+    width: 100%;
+    margin: 0;
+}
+
+.app-footer>p {
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    background-color: #9669FF;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.app-footer>p>a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #ffffff;
+}

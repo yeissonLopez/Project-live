@@ -1,0 +1,65 @@
+img {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.app-bienvenido {
+    color: #4B3480;
+    font-size: 30px;
+}
+
+.app-iniciar-sesion {
+    color: #704EBF;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button-inicio-sesion {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #9669FF;
+    border-radius: 10px;
+    border: 2px solid #704EBF;
+}
+
+@media all and (min-width: 375px) {
+    #boton-iniciar-s {
+        width: 120px;
+    }
+}
+
+@media all and (min-width: 425px) {
+    #boton-iniciar-s {
+        width: 130px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #boton-iniciar-s {
+        width: 210px;
+    }
+    #div-boton-is {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center
+    }
+}
+
+@media all and (min-width: 1024px) {
+    #boton-iniciar-s {
+        width: 200px;
+    }
+}
+
+.conteneder-login {
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
