@@ -1,0 +1,86 @@
+<form action="">
+    <!-- INFORMACION PERSONAL -->
+    <div class="form-group app-div-form">
+        <div class="form-row app-div-separator">
+            <div class="form-group col-md-6">
+                <label for="inputName">Nombres:</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombres" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputLastName">Apellidos:</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Apellidos" required>
+            </div>
+        </div>
+
+        <div class="form-row app-div-separator">
+            <div class="form-group col-md-4">
+                <label for="inputCountry">País:</label>
+                <select id="inputCountry" class="form-control" required>
+                    <option >Seleccione una opción</option>
+                    <option >Colombia</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputDepartment">Departamento:</label>
+                <select id="inputDepartment" class="form-control" required>
+                    <option >Seleccione una opción</option>
+                    <option >Boyacá</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputCity">Ciudad:</label>
+                <select id="inputCity" class="form-control" required>
+                    <option >Seleccione una opción</option>
+                    <option >Tunja</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row app-div-separator">
+            <div class="form-group col-md-4">
+                <label for="inputBirthDate">Fecha de Nacimiento:</label>
+                <input type="date" class="form-control" id="inputBirthDate" placeholder="Fecha de Nacimiento" required>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputGener">Género:</label>
+                <select id="inputGener" class="form-control" required>
+                    <option >Seleccione una opción</option>
+                    <option >Masculino</option>
+                    <option >Femenino</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputDZ">Diestro/Zurdo:</label>
+                <select id="inputDZ" class="form-control" required>
+                    <option >Seleccione una opción</option>
+                    <option >Diestro</option>
+                    <option>Zurdo</option>
+                    <option>Omitir</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+    <!-- CORREO -->
+    <div class="form-group app-div-form">
+        <div class="app-div-separator">
+            <label for="inputEmail">Correo electrónico</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Dirección de Correo electrónico" required>
+        </div>
+
+        <div class="form-row app-div-separator">
+            <div class="form-group col-md-6">
+                <label for="inputPassword">Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputConfPassword">Confirmar Contraseña</label>
+                <input type="password" class="form-control" id="inputConfPassword" placeholder="Confirmar Contraseña" required>
+            </div>
+        </div>
+    </div>
+</form>

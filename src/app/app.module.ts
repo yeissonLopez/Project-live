@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { MyFooterComponent } from './components/my-footer/my-footer.component';
+import { UserFieldsComponent } from './components/user-fields/user-fields.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MyFooterComponent } from './components/my-footer/my-footer.component';
     HomeComponent,
     SignInComponent,
     LogInComponent,
-    MyFooterComponent
+    MyFooterComponent,
+    UserFieldsComponent
   ],
   imports: [
     BrowserModule,
