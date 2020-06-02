@@ -9,6 +9,7 @@ import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { LogInComponent } from './pages/log-in/log-in.component';
 import { MyFooterComponent } from './components/my-footer/my-footer.component';
 import { UserFieldsComponent } from './components/user-fields/user-fields.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserFieldsComponent } from './components/user-fields/user-fields.compon
     SignInComponent,
     LogInComponent,
     MyFooterComponent,
-    UserFieldsComponent
+    UserFieldsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

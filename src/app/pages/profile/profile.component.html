@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 col-md-4">
+            <button class="btn btn-primary" (click)="dominantHandLeft()">Zurdo</button>
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <button class="btn btn-danger" (click)="dominantHandRight()">Derecho</button>
+        </div>
+        <div class="col-xs-4 col-md-4">
+            <button class="btn btn-success" (click)="dominantHandSkip()">Omitir</button>
+        </div>
+    </div>
+</div>
+<!-- SI EL USUARIO ES ZURDO -->
+<div class="container" *ngIf="dominantHand == 'Z'">
+    <div class="row">
+        <div class="col col-xs-12 col-md-4 container-profile">
+            <div id="profile" class="borde-zurdo" style="background-color: #251A40;">
+                <div class="perfil">
+                    <figure class="perfil__circulo">
+                        <img class="perfil__foto" src="assets/img/perfil.jpg">
+                    </figure>
+                    <h1 class="perfil__nombres">Yeisson Lopez</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-xs-12 col-md-4" style="border: 10px solid red;">
+
+        </div>
+    </div>
+</div>
+
+<!-- SI EL USUARIO NO LE INTERESA -->
+<div class="container" *ngIf="dominantHand == 'O'">
+    <div class="row">
+        <div class="col col-xs-12 col-md-4 container-profile">
+            <div id="profile" class="borde-normal" style="background-color: #9669FF;">
+                <div class="perfil">
+                    <figure class="perfil__circulo">
+                        <img class="perfil__foto" src="assets/img/perfil.jpg">
+                    </figure>
+                    <h1 class="perfil__nombres">Yeisson Lopez</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-xs-12 col-md-4" style="border: 10px solid red;">
+
+        </div>
+    </div>
+</div>
+
+<!-- SI EL USUARIO ES DIESTRO -->
+<div class="container" *ngIf="dominantHand == 'D'">
+    <div class="row">
+        <div class="col col-xs-12 offset-md-8 col-md-4 container-profile">
+            <div id="profile" class="borde-diestro" style="background-color: #5C37B3;">
+                <div class="perfil">
+                    <figure class="perfil__circulo">
+                        <img class="perfil__foto" src="assets/img/perfil.jpg">
+                    </figure>
+                    <h1 class="perfil__nombres">Yeisson Lopez</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-xs-12 offset-md-8 col-md-4" style="border: 10px solid red;">
+
+        </div>
+    </div>
+</div>
